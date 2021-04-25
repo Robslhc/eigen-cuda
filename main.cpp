@@ -8,5 +8,7 @@ int main(int argc, char ** argv)
 
     std::cerr << ">> Testfunction returned: " << x << std::endl;
 
+    Test::testEigenValueSolver();
+
 	return 0;
 }

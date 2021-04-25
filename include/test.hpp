@@ -5,6 +5,8 @@
 namespace Test
 {
     double testfunction();
+
+    void testEigenValueSolver();
 }
 
 #endif

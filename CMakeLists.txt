@@ -80,7 +80,7 @@ target_link_libraries( ${EXECUTABLE_NAME} ${CUDA_LIBRARIES})
 target_include_directories( ${EXECUTABLE_NAME} PUBLIC include)
 target_include_directories( ${EXECUTABLE_NAME} PRIVATE thirdparty)
 
-set_property(TARGET ${EXECUTABLE_NAME} PROPERTY CXX_STANDARD 11)
+set_property(TARGET ${EXECUTABLE_NAME} PROPERTY CXX_STANDARD 14)
 set_property(TARGET ${EXECUTABLE_NAME} PROPERTY CXX_STANDARD_REQUIRED ON)
 set_property(TARGET ${EXECUTABLE_NAME} PROPERTY CXX_EXTENSIONS OFF)
 #############################################

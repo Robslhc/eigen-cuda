@@ -8,6 +8,8 @@
 namespace Kernel
 {
     double dot(const std::vector<Eigen::Vector3d> & v1, const std::vector<Eigen::Vector3d> & v2);
+
+    void run_eigen_solver(const std::vector<Eigen::Matrix3f> &m);
 }
 
 #endif
